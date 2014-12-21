@@ -1,0 +1,114 @@
+  File Name: tidyDataSet.txt
+Description: tidyDataSet is a set of data with the average of each variable for each activity and each subject as described
+             for the Getting and Cleaning Data course project to manipulate and reshape data created by Samsung testing of
+             device data.
+
+Column Name: subject
+      Class: Integer with range 1-30
+Description: An integer for each subject in the test battery
+
+Column Name: activities
+      Class: Character with 6 possibilities
+Description: Contains "WALKING" ,"WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
+             Identifies activity.  Each subject should have one entry for each activitie.
+
+Column Name: [tBodyAcc-mean()-X]
+      Class: Numeric
+
+Column Name: [tBodyAcc-mean()-Y]
+
+Column Name: [tBodyAcc-mean()-Z]
+
+Column Name: [tBodyAcc-std()-X]
+
+Column Name: [tBodyAcc-std()-Y]
+
+Column Name: [tBodyAcc-std()-Z]
+
+Column Name: [tGravityAcc-mean()-X]
+
+Column Name: [tGravityAcc-mean()-Y]
+
+Column Name: [tGravityAcc-mean()-Z]
+
+Column Name: [tGravityAcc-std()-X]
+
+Column Name: [tGravityAcc-std()-Y]
+
+Column Name: [tGravityAcc-std()-Z]
+
+Column Name: [tBodyAccJerk-mean()-X]
+
+Column Name: [tBodyAccJerk-mean()-Y]
+
+Column Name: [tBodyAccJerk-mean()-Z]
+
+Column Name: [tBodyAccJerk-std()-X]
+
+Column Name: [tBodyAccJerk-std()-Y]
+
+Column Name: [tBodyAccJerk-std()-Z]
+
+column name: [tBodyGyro-mean()-X]
+
+column name: [tBodyGyro-mean()-Y]
+
+column name: [tBodyGyro-mean()-Z]
+column name: [tBodyGyro-std()-X]
+column name: [tBodyGyro-std()-Y]
+column name: [tBodyGyro-std()-Z]
+column name: [tBodyGyroJerk-mean()-X]
+column name: [tBodyGyroJerk-mean()-Y]
+column name: [tBodyGyroJerk-mean()-Z]
+column name: [tBodyGyroJerk-std()-X]
+column name: [tBodyGyroJerk-std()-Y]
+Column Name: [tBodyGyroJerk-std()-Z]
+Column Name: [tBodyAccMag-mean()]
+Column Name: [tBodyAccMag-std()]
+Column Name: [tGravityAccMag-mean()]
+Column Name: [tGravityAccMag-std()]
+Column Name: [tBodyAccJerkMag-mean()]
+Column Name: [tBodyAccJerkMag-std()]
+Column Name: [tBodyGyroMag-mean()]
+Column Name: [tBodyGyroMag-std()]
+Column Name: [tBodyGyroJerkMag-mean()]
+Column Name: [tBodyGyroJerkMag-std()]
+Column Name: [fBodyAcc-mean()-X]
+Column Name: [fBodyAcc-mean()-Y]
+Column Name: [fBodyAcc-mean()-Z]
+Column Name: [fBodyAcc-std()-X]
+Column Name: [fBodyAcc-std()-Y]
+Column Name: [fBodyAcc-std()-Z]
+Column Name: [fBodyAcc-meanFreq()-X]
+Column Name: [fBodyAcc-meanFreq()-Y]
+Column Name: [fBodyAcc-meanFreq()-Z]
+Column Name: [fBodyAccJerk-mean()-X]
+Column Name: [fBodyAccJerk-mean()-Y]
+Column Name: [fBodyAccJerk-mean()-Z]
+Column Name: [fBodyAccJerk-std()-X]
+Column Name: [fBodyAccJerk-std()-Y]
+Column Name: [fBodyAccJerk-std()-Z]
+Column Name: [fBodyAccJerk-meanFreq()-X]
+Column Name: [fBodyAccJerk-meanFreq()-Y]
+Column Name: [fBodyAccJerk-meanFreq()-Z]
+Column Name: [fBodyGyro-mean()-X]
+Column Name: [fBodyGyro-mean()-Y]
+Column Name: [fBodyGyro-mean()-Z]
+Column Name: [fBodyGyro-std()-X]
+Column Name: [fBodyGyro-std()-Y]
+Column Name: [fBodyGyro-std()-Z]
+Column Name: [fBodyGyro-meanFreq()-X]
+Column Name: [fBodyGyro-meanFreq()-Y]
+Column Name: [fBodyGyro-meanFreq()-Z]
+Column Name: fBodyAccMag-mean()]
+Column Name: [fBodyAccMag-std()]
+Column Name: fBodyAccMag-meanFreq()]
+Column Name: [fBodyBodyAccJerkMag-mean()]
+Column Name: [fBodyBodyAccJerkMag-std()]
+Column Name: [fBodyBodyAccJerkMag-meanFreq()]
+Column Name: [fBodyBodyGyroMag-mean()]
+Column Name: [fBodyBodyGyroMag-std()]
+Column Name: [fBodyBodyGyroMag-meanFreq()]
+Column Name: [fBodyBodyGyroJerkMag-mean()]
+Column Name: [fBodyBodyGyroJerkMag-std()]
+Column Name: [fBodyBodyGyroJerkMag-meanFreq()]
