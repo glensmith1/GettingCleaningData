@@ -1,4 +1,5 @@
   File Name: tidyDataSet.txt
+  Load in R: read.table("tidyDataSet.txt", header = TRUE)
 Description: tidyDataSet is a set of data with the average of each variable for each activity and each subject as described
              for the Getting and Cleaning Data course project to manipulate and reshape data created by Samsung testing of
              device data.
@@ -14,101 +15,316 @@ Description: Contains "WALKING" ,"WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITT
 
 Column Name: [tBodyAcc-mean()-X]
       Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAcc-mean()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAcc-mean()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAcc-std()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAcc-std()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAcc-std()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tGravityAcc-mean()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tGravityAcc-mean()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tGravityAcc-mean()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tGravityAcc-std()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tGravityAcc-std()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tGravityAcc-std()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAccJerk-mean()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAccJerk-mean()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAccJerk-mean()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAccJerk-std()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAccJerk-std()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 Column Name: [tBodyAccJerk-std()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 column name: [tBodyGyro-mean()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 column name: [tBodyGyro-mean()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
 
 column name: [tBodyGyro-mean()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 column name: [tBodyGyro-std()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 column name: [tBodyGyro-std()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 column name: [tBodyGyro-std()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 column name: [tBodyGyroJerk-mean()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 column name: [tBodyGyroJerk-mean()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 column name: [tBodyGyroJerk-mean()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 column name: [tBodyGyroJerk-std()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 column name: [tBodyGyroJerk-std()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tBodyGyroJerk-std()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tBodyAccMag-mean()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tBodyAccMag-std()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tGravityAccMag-mean()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tGravityAccMag-std()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tBodyAccJerkMag-mean()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity.
+
 Column Name: [tBodyAccJerkMag-std()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tBodyGyroMag-mean()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tBodyGyroMag-std()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tBodyGyroJerkMag-mean()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [tBodyGyroJerkMag-std()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAcc-mean()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAcc-mean()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAcc-mean()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAcc-std()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAcc-std()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAcc-std()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAcc-meanFreq()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAcc-meanFreq()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAcc-meanFreq()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccJerk-mean()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccJerk-mean()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccJerk-mean()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccJerk-std()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccJerk-std()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccJerk-std()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccJerk-meanFreq()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccJerk-meanFreq()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccJerk-meanFreq()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyGyro-mean()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyGyro-mean()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyGyro-mean()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyGyro-std()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyGyro-std()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyGyro-std()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyGyro-meanFreq()-X]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyGyro-meanFreq()-Y]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyGyro-meanFreq()-Z]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: fBodyAccMag-mean()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyAccMag-std()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: fBodyAccMag-meanFreq()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyBodyAccJerkMag-mean()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyBodyAccJerkMag-std()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyBodyAccJerkMag-meanFreq()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyBodyGyroMag-mean()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyBodyGyroMag-std()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyBodyGyroMag-meanFreq()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyBodyGyroJerkMag-mean()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyBodyGyroJerkMag-std()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
+
 Column Name: [fBodyBodyGyroJerkMag-meanFreq()]
+      Class: Numeric
+Description: Mean of this measurement for the given subject and activity
